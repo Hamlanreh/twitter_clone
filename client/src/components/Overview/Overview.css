@@ -1,0 +1,12 @@
+.overview {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.overview__content {
+  width: 63rem;
+  margin-right: 2rem;
+  display: flex;
+}

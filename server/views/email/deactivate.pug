@@ -1,0 +1,16 @@
+extends baseEmail
+
+block content
+    p Hi #{firstName},
+    p Your Amazon clone account has been successfully deactivated 😢😢😭😟💔. Hope you've been happy with our services, we will be expecting your return soon.
+    table.btn.btn-primary(role="presentation", border="0", cellpadding="0", cellspacing="0")
+        tbody
+            tr
+                td(align="left")
+                    table(role="presentation", border="0", cellpadding="0", cellspacing="0")
+                        tbody
+                            tr
+                                td
+                                    a(href=`${url}`, target="_blank") Create new account
+    p If you haven't been happy with our service just reach out to us through email to complain about what went wrong and how we can help you or improve the services.
+    p Good luck! Hope to see you soon.

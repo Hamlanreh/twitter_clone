@@ -1,0 +1,38 @@
+.notification {
+  width: 100%;
+}
+.notification__header {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  height: 5.3rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.notification__header > div {
+  margin-left: 4rem;
+}
+.notification__header h4 {
+  font-size: 2rem;
+}
+
+.notification__nav {
+  list-style: none;
+  height: 7rem;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+}
+.notification__navItem {
+  flex: 1;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification__navItem--active {
+  border-bottom: 3px solid var(--color-primary-blue);
+}

@@ -1,0 +1,31 @@
+.sidebar__feed {
+  padding: 1rem;
+  display: flex;
+}
+.sidebar__feed:hover {
+  background-color: lightgrey;
+}
+.sidebar__feedLeft {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+.sidebar__feedLeft h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+.sidebar__feedLeft p {
+  font-size: 1.2rem;
+}
+.sidebar__feedImgBox {
+  background-color: lightgrey;
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.sidebar__feedImg {
+  width: 100%;
+  height: 100%;
+}

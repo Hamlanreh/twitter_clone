@@ -1,0 +1,145 @@
+.thread {
+  width: 100%;
+  padding: 1rem;
+  border-right: 1px solid lightgrey;
+}
+.thread__header {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  height: 5.3rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.thread__header h4 {
+  font-size: 2rem;
+}
+.thread__header p {
+  font-size: 1.7rem;
+}
+.thread__header > div {
+  margin-left: 4rem;
+}
+
+.thread__user {
+  padding: 1rem;
+  display: flex;
+}
+.thread__user h1 {
+  font-size: 2rem;
+}
+.thread__user p {
+  font-size: 1.7rem;
+}
+.thread__userImgBox {
+  background-color: #eee;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.thread__userImg {
+  width: 100%;
+  height: 100%;
+}
+.thread__moreToggleBtn {
+  margin-left: auto;
+}
+
+.thread__post {
+  font-size: 1.7rem;
+  margin: 1rem;
+}
+.thread__postDate {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 1rem;
+  padding: 1rem 0;
+  color: darkgrey;
+  display: flex;
+  align-items: center;
+}
+.thread__postDate span + span {
+  margin-left: 1rem;
+}
+.thread__postDetail {
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem 0;
+  padding: 1rem 0;
+  color: darkgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.thread__postDetail span + span {
+  margin-left: 1rem;
+}
+.thread__postDetail span strong {
+  color: black;
+}
+
+.thread__postActionList {
+  list-style: none;
+  height: 5rem;
+  margin: 0 1rem;
+  padding: 2rem 0;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  overflow: hidden;
+}
+.thread__postActionList li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thread__replyFormBox {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+.thread__replyFormBox > p {
+  margin-left: 6rem;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+}
+.thread__replyFormBox > div {
+  display: flex;
+}
+.thread__replyImgBox {
+  background-color: #eee;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.thread__replyForm {
+  flex: 1;
+  padding: 0.5rem;
+}
+.thread__replyForm textarea {
+  font-size: 1.7rem;
+  width: 100%;
+  height: 7rem;
+  outline: none;
+  border: none;
+  resize: none;
+  overflow-y: scroll;
+}
+.thread__replyForm button[type='submit'] {
+  background-color: var(--color-primary-blue);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  display: block;
+  margin-left: auto;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.sidebar__follow {
+  padding: 1rem;
+  display: flex;
+}
+.sidebar__follow:hover {
+  background-color: lightgrey;
+}
+.sidebar__followImgBox {
+  background-color: lightgrey;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.sidebar__followUser {
+  flex: 1;
+}
+.sidebar__followUser h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  word-break: break-word;
+}
+.sidebar__followUser p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.sidebar__followBtnBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.sidebar__followBtnBox button {
+  background-color: black;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 8rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  border: none;
+}

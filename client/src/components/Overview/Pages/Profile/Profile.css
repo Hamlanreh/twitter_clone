@@ -1,0 +1,108 @@
+.profile {
+  width: 100%;
+}
+.profile__header {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  height: 5.3rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.profile__header h4 {
+  font-size: 2rem;
+}
+.profile__header p {
+  font-size: 1.7rem;
+}
+.profile__header > div {
+  margin-left: 4rem;
+}
+
+.profile__container {
+  position: relative;
+}
+.profile__userBgImgBox {
+  background-color: #eee;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+.profile__userBgImg {
+  width: 100%;
+  height: 100%;
+}
+.profile__userImgBox {
+  background-color: #fff;
+  width: 20em;
+  height: 20rem;
+  padding: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  overflow: hidden;
+}
+.profile__userImg {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.profile__userDetail {
+  margin-top: 10rem;
+  padding: 1rem;
+}
+.profile__userDetail h1 {
+  font-size: 2rem;
+}
+.profile__userDetail p {
+  font-size: 1.7rem;
+  padding: 0.5rem 0;
+}
+.profile__userLocation,
+.profile__userFollowing {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.profile__userLocation span,
+.profile__userFollowing span {
+  display: flex;
+  align-items: center;
+}
+.profile__userLocation span + span,
+.profile__userFollowing span + span {
+  margin-left: 3rem;
+}
+.profile__userFollowing strong {
+  margin-right: 1rem;
+}
+
+.profile__nav {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.profile__navLink {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__navLink:hover {
+  background-color: #eee;
+}
+.profile__navLink--active {
+  border-bottom: 2px solid var(--color-primary-blue);
+}

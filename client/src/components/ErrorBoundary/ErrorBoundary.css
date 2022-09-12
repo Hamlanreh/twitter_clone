@@ -1,0 +1,32 @@
+.errorBoundary {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.errorBoundary > div {
+  position: relative;
+  top: -5rem;
+}
+.errorBoundary h1 {
+  font-size: 4rem;
+  padding: 2rem 0;
+}
+.errorBoundary details {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.errorBoundary__refreshLink {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

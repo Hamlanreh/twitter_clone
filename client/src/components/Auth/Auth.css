@@ -1,0 +1,103 @@
+.auth__content {
+  min-height: 95vh;
+  display: flex;
+}
+
+.auth__left {
+  flex: 1;
+  background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.auth__rightContent h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+.auth__rightContent h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.auth__rightContent h3 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.auth__rightContent > p {
+  width: 35rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  margin-bottom: 10rem;
+}
+
+.auth__ctaBox > p {
+  width: 35rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 1.7rem;
+}
+.auth__ctaBox > p::before,
+.auth__ctaBox > p::after {
+  width: 40%;
+  content: '';
+  display: block;
+  background-color: lightgrey;
+  height: 1px;
+}
+
+.auth__btn,
+.auth__signInBtn {
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  width: 35rem;
+  border: 1px solid lightgrey;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth__btn + .auth__btn {
+  margin-top: 2rem;
+}
+.auth__btn:last-child {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+}
+.auth__signInBtn {
+  color: var(--color-primary-blue);
+}
+
+.auth__footer {
+  width: 100%;
+  padding: 2rem 0;
+}
+.auth__footer ul {
+  font-size: 1.3rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.auth__footer li {
+  margin-bottom: 1rem;
+}
+.auth__footer li + li {
+  margin-left: 1rem;
+}

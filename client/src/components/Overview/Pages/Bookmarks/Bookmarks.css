@@ -1,0 +1,40 @@
+.bookmarks {
+  width: 100%;
+}
+.bookmarks__header {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  height: 5.3rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.bookmarks__header h4 {
+  font-size: 2rem;
+}
+.bookmarks__header p {
+  font-size: 1.7rem;
+}
+.bookmarks__header > div {
+  margin-left: 4rem;
+}
+
+.bookmarks__container {
+  width: 100%;
+}
+
+.bookmarks__empty {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookmarks__empty h4 {
+  font-size: 4rem;
+  color: #333;
+}
